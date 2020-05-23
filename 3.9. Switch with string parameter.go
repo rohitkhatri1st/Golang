@@ -6,7 +6,7 @@ import (
 
 func main() {
 	favsport := "Cricket"
-	switch favsport {
+	switch favsport/*favsport is the expression*/ {
 	case "Football":
 		fmt.Println("1")
 	case ("Cricket"):
