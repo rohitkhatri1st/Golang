@@ -10,8 +10,8 @@ func main() {
 		fmt.Println(i, v)
 
 	}
-	fmt.Println(s[:5])
-	fmt.Println(s[5:])
-	fmt.Println(s[2:7])
-	fmt.Println(s[1:6])
+	fmt.Println(s[:5]) 	//slicing s from start to element 4
+	fmt.Println(s[5:])	//slicing s from  element 5 to end.
+	fmt.Println(s[2:7])	//slicing s from  element 2(element to included) to element 6(element 7 excluded)
+	fmt.Println(s[1:6])	//slicing s from  element 1 to element 6
 }
