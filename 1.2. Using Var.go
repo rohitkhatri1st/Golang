@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-var x int
+var x int	//var has a package level scope while short declaration operator has main level scope.
 var y string
 var z bool
 
