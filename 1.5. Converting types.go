@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("%T\n", x)
 	x = 42
 	fmt.Println(x)
-	y = int(x)
+	y = int(x)	//converting x of type mynew to int and storing it in y
 	fmt.Println(y)
 	fmt.Printf("%T\n", y)
 
