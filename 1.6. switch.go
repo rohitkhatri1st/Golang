@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	switch {
+	switch {//switch can be used with or without any expression. Here no expression means true
 	case (2 == 3):
 		fmt.Println("ASF")
 	case (2 == 2):
