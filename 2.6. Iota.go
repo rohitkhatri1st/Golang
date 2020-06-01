@@ -6,8 +6,8 @@ import (
 
 func main() {
 	const (
-		a = iota + 2016
-		b
+		a = iota + 2016	// Within a constant declaration, the predeclared identifier iota represents successive untyped integer constants.
+		b	//It will store value 2017 since iota is been used to assign value to a.
 		c
 		d
 	)
