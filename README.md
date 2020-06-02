@@ -1,2 +1,2 @@
 # Golang
-All my Golang codes
+All my Golang training codes
