@@ -15,7 +15,7 @@ func main() {
 			fmt.Println("\t", i, j)
 		}
 	}
-	delete(m, "Mcleod_Todd")
+	delete(m, "Mcleod_Todd")//Deletes Mcleod_Todd key and Corresponding Values from m.
 	for k, v := range m {
 		fmt.Println(k, v)
 	}
