@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type person struct {
+type person struct {//defining a struct 'person' with first,last and favice as elements.
 	first  string
 	last   string
 	favice []string
