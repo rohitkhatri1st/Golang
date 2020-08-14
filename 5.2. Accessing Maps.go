@@ -20,7 +20,7 @@ func main() {
 		favice: []string{"Martini", "Bubblegum", "Vanilla"},
 	}
 	m := map[string]person{
-		p1.last: p1,
+		p1.last: p1, //creating map with key=last of p1 and value = p1
 		p2.last: p2,
 	}
 	for _, v := range m {
