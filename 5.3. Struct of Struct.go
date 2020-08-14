@@ -11,7 +11,7 @@ type truck struct {
 	fourWheel bool
 }
 type sedan struct {
-	vehicle
+	vehicle //creating struct sedan with an element of vehicle structure.
 	luxury bool
 }
 
